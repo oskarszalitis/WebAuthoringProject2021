@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+		background-color:#000000;
+		text-color: #343434;
+	}
+	#wrapper {
+			width:1500px;
+			margin-left:auto;
+			margin-right:auto;
+			background-color:#FFFFFF;
+			border:solid 5px #e1b303;
+			border-top-left-radius:12px;
+			border-top-right-radius:12px;
+			border-bottom-left-radius:12px;
+			border-bottom-right-radius:12px;
+			}
+header {
+		height: 200px;
+		text-align: center;
+		line-height: 150px;
+		background-color:#947867;
+		border:solid 3px #000000;
+		font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			}
+header img {
+  float: left;
+  width: 150px;
+  height: 150px;
+ }
+
+header h1 {
+  position: relative;
+  top: 0px;
+  left: 90px;
+}
+nav {background-color: #e1b303;
+	position:sticky;
+	top: 0px;
+	padding-left: 20%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		}
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width:100%;
+		}
+li {
+		float:left;
+		border-right: 1px solid #bbb;
+	}
+li a {
+		background-color: #dddddd;
+		display:block;
+	color:#000000;
+	text-align:center;
+	padding:14px 16px;
+	}
+li a:hover {
+		background-color:#F0E000;
+	}
+.active {
+		background-color: #f9f9f9;
+		color: #ffffff;
+	} 
+
+main {
+		width: 60%;
+		background-color:#F4EFEF;
+		margin-left: 20px;
+		margin-right: 20px;
+		border:solid 5px #000000;
+		padding-top: 2px;
+		padding-right: 2px;
+		padding-bottom: 0px;
+		padding-left: 2px;
+		float:left;
+	}
+
+aside {
+		width: 36%;
+		float: right;
+			background-color: #eeeeee;
+			border-top-left-radius:12px;
+			border-top-right-radius:12px;
+			border-bottom-left-radius:12px;
+			border-bottom-right-radius:12px;
+	}
+footer {
+			clear: both;
+			height: 100px;
+			border: solid #000000;
+			padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #947867;
+	font-size: 0.8em;
+	text-align:center;
+			}
+h1 {
+	color:#000000;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	text-align: center;
+	text-transform: uppercase;
+	}
+h2 {
+	color: #000000;
+}
+h3 {
+	color: #000000;
+}
+
+
+a:link{
+	color:#094BFF;
+}
+a:visited{
+	color:#FF944C;
+}
+a:hover {
+	color:#D41518;
+	
+}
