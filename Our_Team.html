@@ -16,13 +16,23 @@ main {
 			}
 img		{
 		display: block;
-		padding-left: 200px;
+		padding-left: 50px;
 		padding-bottom: 20px;
 		padding-top: 20px;
 		}
-div		{
-		float: left;
-					}
+ .image {
+            float:left;
+        }
+        
+ .text {
+            
+            float: left;
+            width: 500px;
+            padding-left: 100px;
+        }
+#clear{
+          clear:both;
+        }
 </style>
 	<script src="https://kit.fontawesome.com/41bc5db721.js" crossorigin="anonymous"></script>
 </head>
@@ -41,14 +51,15 @@ div		{
 		</ul>
 		</nav>
 	<main>
-		<div>
-	  
-		<img src="images/jillian.jpg" alt="jillian" width="530" height="650"/>
-		<h2>Jilian</h2>
-	  	<p>As a personal trainer and black belt holder, Jillian uses a blend of strength training techniques with her clients including kickboxing, yoga, Pilates, plyometrics, and weight training.</p><p>Jillian has held four personal training certificates from the National Exercise &amp; Sports Trainers Association and she is Kettlebell Concepts certified.</p><p>Jillian has a nutrition and wellness consultant certificate.</p></div>
-	   <img src="images/dwayne.jpg" alt="dwayne" width="530" height="650"/>
-		<h2>Dwayne</h2>
-	 	<h3>Dwayne wants to help people of all ages and fitness levels achieve their goals, loose weigh, get stronger, faster, more powerful and increase their overall physical and mental health.</h3>
+		<h2>Jillian</h2>
+		<div class = "image"><img src="images/jillian.jpg" alt="jillian" width="530" height="650"/></div>
+		
+	  	<div class ="text"><h3>As a personal trainer and black belt holder, Jillian uses a blend of strength training techniques with her clients including kickboxing, yoga, Pilates, plyometrics, and weight training.<p>Jillian has held four personal training certificates from the National Exercise &amp; Sports Trainers Association and she is Kettlebell Concepts certified.</p><p>Jillian has a nutrition and wellness consultant certificate.</p></h3></div>
+		
+		<h2 id ="clear">Dwayne</h2>
+		<div class = "image"><img src="images/dwayne.jpg" alt="dwayne" width="530" height="650"/></div>
+		
+	 	<div class ="text"><h3>Dwayne wants to help people of all ages and fitness levels achieve their goals, loose weigh, get stronger, faster, more powerful and increase their overall physical and mental health.</h3></div>
 		
         
     </main>
