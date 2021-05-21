@@ -39,14 +39,14 @@ ul {
 		}
 li {
 		float:left;
-		border-right: 1px solid #bbb;
+		border-right: 1px solid #000000;
 	}
 li a {
 		background-color: #e1b303;
 		display:block;
-	color:#000000;
-	text-align:center;
-	padding:14px 16px;
+		color:#000000;
+		text-align:center;
+		padding:14px 16px;
 	}
 li a:hover {
 		background-color:#F0E000;
